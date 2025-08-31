@@ -1,0 +1,24 @@
+.nested-checkbox-container {
+  margin: 30px 0 10px;
+  padding: 16px;
+  background: #faf9fa;
+  border-radius: 8px;
+  max-width: 400px;
+}
+.checkbox-label {
+  display:block;
+  cursor:pointer;
+  font-weight:bold;
+  margin-bottom:7px;
+}
+.category-block {
+  margin-left:22px;
+  margin-bottom:10px;
+}
+.items-list {
+  margin-left:19px;
+}
+.item-label {
+  font-weight:normal;
+  margin-bottom:3px;
+}

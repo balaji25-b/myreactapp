@@ -1,0 +1,47 @@
+.bundle {
+  background: #faf9fa;
+  padding: 23px 18px 18px;
+  border-radius: 13px;
+  margin: 16px 0;
+}
+.bundle-title {
+  color: #702963;
+  font-size: 1.08rem;
+  font-weight: 600;
+  margin-bottom: 11px;
+}
+.bundle-row {
+  display: flex;
+  gap: 17px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+.bundle-item {
+  text-align: center;
+}
+.bundle-item img {
+  width: 65px;
+  border-radius: 6px;
+}
+.bundle-btn {
+  background: #323232;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 100%;
+}
+.bundle-btn:hover {
+  background: #111;
+}
+.bundle-price {
+  margin-top: 9px;
+  color: #666;
+  font-weight: 700;
+}
+.save {
+  color: #20a890;
+  margin-left: 7px;
+}

@@ -1,0 +1,16 @@
+.addtocart-btn {
+  background: #323232;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  padding: 15px 0;
+  border-radius: 40px;
+  width: 100%;
+  margin-top: 12px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.addtocart-btn:hover {
+  background: #000;
+}

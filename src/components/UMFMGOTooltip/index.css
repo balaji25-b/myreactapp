@@ -1,0 +1,52 @@
+.umfmgo-tooltip-wrap {
+  margin: 20px 0;
+  position: relative;
+}
+.umfmgo-btn {
+  padding: 8px 14px;
+  background: #eee;
+  border: none;
+  border-radius: 12px;
+  font-size: 0.95rem;
+  color: #702963;
+  cursor: pointer;
+}
+.umfmgo-tooltip {
+  background: white;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.13);
+  border-radius: 15px;
+  padding: 18px 18px 10px;
+  font-size: 0.99rem;
+  color: #333;
+  z-index: 99;
+  position: absolute;
+  top: 36px;
+  max-width: 320px;
+}
+.scale {
+  display: flex;
+  margin: 7px 0 6px;
+  gap: 5px;
+}
+.scale span {
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.8rem;
+  padding: 3px 7px;
+  min-width: 30px;
+  text-align: center;
+}
+.close-btn {
+  border: none;
+  background: none;
+  color: #702963;
+  font-weight: 600;
+  font-size: 0.98rem;
+  cursor: pointer;
+}
+.desc {
+  display: block;
+  font-size: 0.87rem;
+  color: #444;
+}

@@ -1,0 +1,5 @@
+.qty-selector { margin:16px 0; }
+.qty-label { font-weight:600; margin-bottom:4px; display:block;}
+.qty-input { width:38px; font-weight:600; font-size:1rem; border:1px solid #ccc; border-radius:5px; margin:0 8px; text-align:center;}
+.qty-btn { background:#fed959; border:none; border-radius:5px; font-size:1.2rem; font-weight:bold; padding:3px 11px; cursor:pointer;}
+.qty-btn:hover { background:#f8cf58; }
