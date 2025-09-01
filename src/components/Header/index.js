@@ -7,7 +7,17 @@ function Header() {
       <button className='menu-btn' aria-label='Open menu'>
         ☰
       </button>
+      <button class="menu-outline-btn">WHICH MANUKA IS FOR ME?</button>
+      <ul className="nav-links">
+          <li>Shop</li>
+          <li>Explore</li>
+        </ul>
       <div className='logo'>NEW ZEALAND HONEY CO.</div>
+      <ul className="nav-links">
+          <li>About</li>
+          <li>Rewards</li>
+          <li>Contact</li>
+        </ul>
       <div className='header-icons'>
         <button aria-label='Account' className='icon-btn'>
           👤
