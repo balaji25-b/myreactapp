@@ -10,6 +10,7 @@
   z-index: 10;
 }
 .menu-btn {
+  display: none;
   background: none;
   border: none;
   font-size: 1.5rem;
@@ -44,4 +45,35 @@
   text-align: center;
   line-height: 18px;
   font-weight: bold;
+}
+.nav-links {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  margin-right: 3px;
+  margin-left: 3px;
+  padding: 0;
+}
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+  .menu-btn {
+    display: block;
+  }
+  .menu-outline-btn{
+    display: none;
+  }
+  
+}
+.menu-outline-btn {
+    color: #d0b200;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d0b200;
+    border-radius: 8px;
+
 }
