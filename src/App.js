@@ -43,7 +43,6 @@ function App() {
           <QuantitySelector quantity={quantity} setQuantity={setQuantity} />
           <AddToCartButton onClick={handleAddToCart} />
           <BundleOptions />
-          {/* Here is Task 2: Nested Checkbox */}
           <section style={{marginTop: '40px'}}>
             <h2>Nested Checkbox Example</h2>
             <NestedCheckbox />
